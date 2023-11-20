@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-size: calc(100vw / 1920 * 10);
+  /*Ниже первое + остальное выриации*/
+  /*font-size: calc(100vw / 1920 * 16);*/
+  /*font-size: calc(100vw / 1668 * 16);*/
+  /*font-size: calc(10px + 2vmin);*/
+/*@media (min-width: $tablet_min) {*/
+/*// font-size: 10px;*/
+/*  font-size: calc(100vw / 1920 * 16);*/
+
+/*}*/
+
+  /*@media (min-width: 1665px) {*/
+  /*  font-size: 10px;*/
+  /*  font-size: calc(100vw / 1920 * 16);*/
+  /*}*/
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

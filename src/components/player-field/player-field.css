@@ -1,0 +1,49 @@
+.player-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /*min-width: 60rem;*/
+    /*min-height: 40rem;*/
+    padding: 2rem;
+    margin: 0.25rem 0;
+    border-radius: 15px;
+    /*background-color: #142120;*/
+    /*rotate: 180deg;*/
+    background-color: grey;
+}
+
+.player-field-180deg {
+    rotate: 180deg;
+}
+
+
+.player-field-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0.2rem 0;
+}
+
+.player-field-control-panel {
+    width: 80%;
+    margin-top: 4rem;
+    padding: 2rem;
+    /*background-color: #455c18;*/
+    /*border-top: 2px solid lightcyan;*/
+    /*border-bottom: 2px solid lightcyan;*/
+}
+
+.player-field-button {
+    min-width: 3.5rem;
+    min-height: 2rem;
+    margin: 0.2rem 0;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+}

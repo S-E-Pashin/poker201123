@@ -1,0 +1,15 @@
+.main-cards-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /*width: 90%;*/
+    min-height: 3rem;
+    /*min-height: 2rem;*/
+    padding: 0.9rem;
+    background-color: #0d4d39;
+    /*background-color: red;*/
+    border: 0.02rem solid black;
+    border-radius: 0.15rem;
+}
